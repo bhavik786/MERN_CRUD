@@ -439,7 +439,7 @@ const Table = () => {
             name="phoneNumber"
             render={({ field }) => (
               <Input
-                maxLength={50}
+                type="number"
                 placeholder="Phone Number"
                 invalid={errors.phoneNumber && true}
                 {...field}
